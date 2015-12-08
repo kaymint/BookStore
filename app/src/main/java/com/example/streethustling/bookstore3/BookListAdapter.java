@@ -46,7 +46,7 @@ public class BookListAdapter extends RecyclerView.Adapter<BookListAdapter.ViewHo
         HashMap<String, String> hashMap = data.get(i);
         viewHolder.bookTitle.setText(hashMap.get(BOOK_TITLE));
         viewHolder.bookAuthor.setText(hashMap.get(BOOK_AUTHOR));
-        viewHolder.imgThumbnail.setImageResource(R.drawable.image_thumb);
+        viewHolder.imgThumbnail.setImageResource(R.drawable.book);
 
 
     }
